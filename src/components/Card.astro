@@ -1,0 +1,21 @@
+---
+interface Props {
+	title: string;
+	body: string;
+}
+
+const { title, body } = Astro.props;
+---
+
+	<li class="flex gap-2 flex-col bg-[#F7FFF1] p-6 rounded-3xl ">
+		<div>
+			<img class="rounded-xl" src="https://img.freepik.com/free-vector/abstract-retro-styled-wireframe-landscape-design_1048-19814.jpg?t=st=1721918731~exp=1721922331~hmac=36d9cce81799776844787b7d146d333ceff8b4ac29937a9cca13fd56d0ba879e&w=1380" alt="image">
+		</div>
+		<p class="text-2xl text-black font-semibold ">
+			{title}
+		</p>
+		<p class="text-black">
+			{body}
+		</p>
+	</li>
+
