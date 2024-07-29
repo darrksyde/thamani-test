@@ -5,32 +5,37 @@ import Secthead from "./Secthead.astro"
 ---
 
 
-<div class=" items-center py-20 flex flex-col">
+<div class=" items-center py-20 lg:px-16 px-8  flex flex-col">
     <Secthead
         title="Our Services"
         description="At Thamani Energy, we offer a comprehensive range of services designed to help businesses achieve maximum energy efficiency and cost savings. Our expert team is committed to delivering customized solutions tailored to your specific needs."
     />
     <div class=" max-w-7xl flex flex-col gap-8">
-        <ul role="list" class="flex flex-col lg:flex-row gap-5">
+        <ul role="list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <Card
+                imageUrl="../public/images/services5.png"
                 title="Critical Facility Maintenance"
                 body="Our experts perform comprehensive energy assessments to identify opportunities for energy savings and provide tailored advisory services to help you implement the most effective strategies."
             />
             <Card
+                imageUrl="../public/images/services1.png"
                 title="Energy Effiency Retrofits"
                 body="Our experts perform comprehensive energy assessments to identify opportunities for energy savings and provide tailored advisory services to help you implement the most effective strategies."
             />
             <Card
+                imageUrl="../public/images/services2.png"
                 title="Energy Management Solutions"
                 body="Our experts perform comprehensive energy assessments to identify opportunities for energy savings and provide tailored advisory services to help you implement the most effective strategies."
             />
         </ul>
-        <ul role="list" class="flex flex-col lg:flex-row gap-5">
+        <ul role="list" class="grid grid-cols-1 md:grid-cols-2 gap-5">
             <Card
+                imageUrl="../public/images/services3.png"
                 title="Energy Assessment and Advisory Services"
                 body="Our experts perform comprehensive energy assessments to identify opportunities for energy savings and provide tailored advisory services to help you implement the most effective strategies."
             />
             <Card
+                imageUrl="../public/images/services4.png"
                 title="Commercial and Residential Solar Systems"
                 body="Our experts perform comprehensive energy assessments to identify opportunities for energy savings and provide tailored advisory services to help you implement the most effective strategies."
             />

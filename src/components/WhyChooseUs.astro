@@ -1,0 +1,40 @@
+---
+import Card2 from "./Card2.astro";
+import Secthead from "./Secthead.astro";
+
+
+---
+
+<div class=" items-center py-20 lg:px-16 px-8 gap-12 flex flex-col">
+    <Secthead title="Why Choose Us?" description="" />
+    
+    <div class="flex  flex-col md:flex-row items-center content-center justify-center gap-4">
+        <Card2
+        serialnum= "01"
+        heading = "Expertise"
+        body = "Our team of professionals is highly knowledgeable and experienced in the latest energy efficiency technologies."
+        className="text-[#DC50FF]"
+        />
+    
+        <Card2
+        serialnum= "02"
+        heading = "Integrity"
+        body = "We pride ourselves on our honesty and transparency in all our dealings."
+        className="text-[#4DD4FF]"
+        />
+    
+        <Card2
+        serialnum= "03"
+        heading = "Proven Results"
+        body = "Our successful projects speak for themselves.Browse through our Gallery for more insights"
+        className="text-[#FFAE50]"
+        />
+    
+        <Card2
+        serialnum= "04"
+        heading = "Commitment"
+        body = "We are dedicated to helping you save energy and reduce costs."
+        className="text-[#FF508F]"
+        />
+    </div>
+</div>
